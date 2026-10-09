@@ -1,0 +1,14 @@
+name: width-depth-limits
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.5
+  - numpy=2.1
+  - pyyaml=6.0
+  - matplotlib=3.9
+  - pytest=8.3
+  - pip
+  - pip:
+      - -e .

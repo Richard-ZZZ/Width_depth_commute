@@ -1,0 +1,16 @@
+experiment:
+  name: smoke
+  output_dir: results
+  device: cpu
+  dtype: float32
+  activations: [identity, tanh]
+  widths: [32, 64]
+  depths: [2, 4]
+  model_seeds: [0, 1]
+  steps: 3
+  learning_rate: 0.1
+data:
+  dimension: 8
+  train_size: 32
+  test_size: 64
+  seed: 0
